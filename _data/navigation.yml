@@ -14,3 +14,5 @@ main:
 
   - title: "Sample Collections"
     url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+  - title: "My Github"
+    url: https://github.com/RubyAlgo/algorithms/tree/gh-pages 

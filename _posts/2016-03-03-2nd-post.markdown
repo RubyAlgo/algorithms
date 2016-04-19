@@ -1,0 +1,17 @@
+---
+layout: default
+title:  "2nd Post"
+date:   2016-04-16 14:14:36 +0000
+categories: jekyll update
+---
+
+This is a test Post
+
+{% highlight ruby %}
+a = [1,2,3,4]
+b = [2,3,4,5]
+
+puts a - b
+
+
+{% endhighlight %}
