@@ -204,3 +204,142 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+#Collections
+collections:
+  searching:
+    output: true
+    permalink: /:collection/:path/
+  sorting:
+    output: true
+    permalink: /:collection/:path/
+  dynamicProgramming:
+    output: true
+    permalink: /:collection/:path/
+  greedyAlgos:
+    output: true
+    permalink: /:collection/:path/
+  bitAlgos:
+    output: true
+    permalink: /:collection/:path/
+  mathematics:
+    output: true
+    permalink: /:collection/:path/
+  arrays:
+    output: true
+    permalink: /:collection/:path/
+  linkedlist:
+    output: true
+    permalink: /:collection/:path/
+    
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: list
+  # _searching
+  - scope:
+      path: ""
+      type: searching
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: list
+  # _sorting
+  - scope:
+      path: ""
+      type: sorting
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: list
+  # _arrays
+  - scope:
+      path: ""
+      type: arrays
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: list
+  # _linkedlist
+  - scope:
+      path: ""
+      type: linkedlist
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: list
+  # _bitAlgos
+  - scope:
+      path: ""
+      type: bitAlgos
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: list
+  # _greedyAlgos
+  - scope:
+      path: ""
+      type: greedyAlgos
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: list
+  # _dynamicProgramming
+  - scope:
+      path: ""
+      type: dynamicProgramming
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: list
+  # _mathematics
+  - scope:
+      path: ""
+      type: mathematics
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: list

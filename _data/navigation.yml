@@ -1,18 +1,50 @@
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Searching"
+    url: /searching/
+    
+  - title: "Sorting"
+    url: /sorting/
+
+  - title: "Arrays"
+    url: /arrays/
+
+  - title: "Bit Algorithms"
+    url: /bitAlgos/
+
+  - title: "Mathematics"
+    url: /mathematics/
 
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/
+    url: /about/
 
-  - title: "Sample Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+# documentation links
+list:
+  - title: Algorithms
+    children:
+      - title: "Searching"
+        url: searching/
+      - title: "Sorting"
+        url: sorting/
+      - title: "Bit Algorithms"
+        url: bitAlgos/
+      - title: "Greedy Algorithms"
+        url: greedyAlgos/
+      - title: "Dynamic Programming"
+        url: dynamicProgramming/
+      - title: "Mathematical Algorithms"
+        url: mathematics/
 
-  - title: "Sample Pages"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
+  - title: Data-structures
+    children:
+      - title: "Linked list"
+        url: linkedlist/
+      - title: "Arrays"
+        url: arrays/
 
-  - title: "Sample Collections"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
-  - title: "My Github"
-    url: https://github.com/RubyAlgo/algorithms/tree/gh-pages 
+  - title: Extras
+    children:
+      - title: "About"
+        url: about/
+     
+

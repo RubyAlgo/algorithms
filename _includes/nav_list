@@ -9,7 +9,7 @@
         {% if nav.children != null %}
         <ul>
           {% for child in nav.children %}
-          {% assign nav_url = child.path | prepend: "/" | prepend: page.sidebar.nav | prepend: "/" | append: "/" %}
+          {% assign nav_url = child.url | prepend: "/" %}
             {% if nav_url == page.url %}
               {% assign active = "active" %}
             {% else %}

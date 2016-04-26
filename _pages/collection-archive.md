@@ -1,8 +1,8 @@
 ---
 layout: archive
-author_profile: true
-sidebar:
-    nav: list
+title: "Posts by Collection"
+permalink: /collection-archive/
+author_profile: false
 ---
 
 {% include base_path %}
