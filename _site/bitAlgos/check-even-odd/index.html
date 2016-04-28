@@ -1,0 +1,343 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Check if a given number is even or odd - Ruby Algorithms</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Ruby Algorithms">
+<meta property="og:title" content="Check if a given number is even or odd">
+
+
+
+
+  <meta property="og:description" content="Given a number,check if it is even or odd using bit operations.Algorithm:  let num be x  find x&amp;1 ,if result is 0 then even else odd.  The Least significant bit of odd number is always 1 and even is always 0,  hence x&amp;1 will be 0 if even else odd. ">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2016-04-16T14:14:36+00:00">
+  
+    <link rel="next" href="/bitAlgos/check-power-of-two/" title="Check if a given number is power of two">
+  
+  
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "person",
+      "name" : "Ruby Algorithms",
+      "url" : null,
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ruby Algorithms Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Ruby Algorithms</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/searching/">Searching</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/sorting/">Sorting</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/arrays/">Arrays</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/bitAlgos/">Bit Algorithms</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/mathematics/">Mathematics</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/about/">About</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+
+<nav class="nav__list">
+  
+  <ul>
+    
+      <li><span class="nav__sub-title">Algorithms</span>
+        
+        <ul>
+          
+          
+            
+            <li><a href="/searching/" class="">Searching</a></li>
+          
+          
+            
+            <li><a href="/sorting/" class="">Sorting</a></li>
+          
+          
+            
+            <li><a href="/bitAlgos/" class="">Bit Algorithms</a></li>
+          
+          
+            
+            <li><a href="/greedyAlgos/" class="">Greedy Algorithms</a></li>
+          
+          
+            
+            <li><a href="/dynamicProgramming/" class="">Dynamic Programming</a></li>
+          
+          
+            
+            <li><a href="/mathematics/" class="">Mathematical Algorithms</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li><span class="nav__sub-title">Data-structures</span>
+        
+        <ul>
+          
+          
+            
+            <li><a href="/linkedlist/" class="">Linked list</a></li>
+          
+          
+            
+            <li><a href="/arrays/" class="">Arrays</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li><span class="nav__sub-title">Extras</span>
+        
+        <ul>
+          
+          
+            
+            <li><a href="/about/" class="">About</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Check if a given number is even or odd">
+    <meta itemprop="description" content="Given a number,check if it is even or odd using bit operations.Algorithm:  let num be x  find x&amp;1 ,if result is 0 then even else odd.  The Least significant bit of odd number is always 1 and even is always 0,  hence x&amp;1 will be 0 if even else odd. ">
+    <meta itemprop="datePublished" content="April 16, 2016">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Check if a given number is even or odd
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h2 id="given-a-numbercheck-if-it-is-even-or-odd-using-bit-operations">Given a number,check if it is even or odd using bit operations.</h2>
+<p><strong>Algorithm:</strong> 
+ let num be x 
+ find x&amp;1 ,if result is 0 then even else odd. 
+ The Least significant bit of odd number is always 1 and even is always 0, 
+ hence x&amp;1 will be 0 if even else odd. <br /></p>
+
+<h2 id="implementation">Implementation</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code>
+    <span class="k">def</span> <span class="nf">check_evenOdd</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">x</span><span class="o">&amp;</span><span class="mi">1</span><span class="o">==</span><span class="mi">0</span>
+            <span class="nb">print</span> <span class="s2">"</span><span class="si">#{</span><span class="n">x</span><span class="si">}</span><span class="s2"> is even"</span>
+        <span class="k">else</span>
+            <span class="nb">print</span> <span class="s2">"</span><span class="si">#{</span><span class="n">x</span><span class="si">}</span><span class="s2"> is odd"</span>
+        <span class="k">end</span>
+    <span class="k">end</span>
+</code></pre>
+</div>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2016-04-16T14:14:36+00:00">April 16, 2016</time></p>
+        
+      </footer>
+
+      
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/bitAlgos/check-power-of-two/" class="pagination--pager" title="Check if a given number is power of two
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    <div class="page__footer">
+      <footer>
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/RubyAlgo"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2016 Ruby Algorithms. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>.</div>
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+    <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+  </body>
+</html>
+

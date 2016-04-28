@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-04-28T03:21:10+00:00</updated><id>/</id><title>Ruby Algorithms</title><subtitle>Implementation of algorithms in Ruby</subtitle><author><name>Ruby Algorithms</name><email>rubyalgo@gmail.com</email></author><entry><title>Test Post!</title><link href="/jekyll/update/hellow-jekyll/" rel="alternate" type="text/html" title="Test Post!" /><published>2016-04-16T14:14:36+00:00</published><updated>2016-04-16T14:14:36+00:00</updated><id>/jekyll/update/hellow-jekyll</id><content type="html" xml:base="/jekyll/update/hellow-jekyll/">&lt;p&gt;This is a test Post&lt;/p&gt;
+&lt;aside class=&quot;sidebar__right&quot;&gt;
+&lt;nav class=&quot;toc&quot;&gt;
+    &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; On This Page&lt;/h4&gt;&lt;/header&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#heading&quot; id=&quot;markdown-toc-heading&quot;&gt;Heading&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#sub-heading&quot; id=&quot;markdown-toc-sub-heading&quot;&gt;Sub-Heading&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-2&quot; id=&quot;markdown-toc-heading-2&quot;&gt;Heading 2&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/nav&gt;
+&lt;/aside&gt;
+
+&lt;h1 id=&quot;heading&quot;&gt;Heading&lt;/h1&gt;
+
+&lt;h2 id=&quot;sub-heading&quot;&gt;Sub-Heading&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;</content><category term="test" /><summary>This is a test Post
+
+
+     On This Page</summary></entry><entry><title>2nd Post</title><link href="/jekyll/update/2nd-post/" rel="alternate" type="text/html" title="2nd Post" /><published>2016-04-16T14:14:36+00:00</published><updated>2016-04-16T14:14:36+00:00</updated><id>/jekyll/update/2nd-post</id><content type="html" xml:base="/jekyll/update/2nd-post/">&lt;p&gt;This is a test Post&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><summary>This is a test Post</summary></entry></feed>
