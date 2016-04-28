@@ -13,7 +13,7 @@ This is a test Post
 > Time-complexity: O(n^2), In-place
 will be using Knuth series :3n+1
 
-## Sub-Heading
+## Implementation
 {% highlight ruby %}
 def shell_sort(a)
     n=a.length

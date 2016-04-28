@@ -8,10 +8,10 @@ tags: test
 
 This is a test Post
 
-# Heading
+# Given a zero index array reverse the order of elements
 
-## Sub-Heading
-{% highlight ruby %}
+## Implementation
+```ruby
 #Given an array reverse it without using extra-space
 #Time-complexity: O(n), Auxiliary-space: O(1)
 
@@ -54,6 +54,5 @@ end
 
 driver_program([1,2,3,4,5]) # => [5,4,3,2,1]
 
-{% endhighlight %}
+```
 
-## Heading 2

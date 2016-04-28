@@ -13,7 +13,7 @@ This is a test Post
 # Time-complexity : O(n^2), In-place, Can be made stable
 # Takes O(n^2) even when array already sorted (hence can be optimized by stopping the algorithm if inner loop didn’t cause any swap.)
 
-## Sub-Heading
+## Implementation
 {% highlight ruby %}
 
 def bubble_sort(a)

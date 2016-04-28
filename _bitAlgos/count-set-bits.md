@@ -9,13 +9,17 @@ tags: test
 This is a test Post
 
 ## Given a number "n",count the number of set bits in it. ##
-> Algorithm: 
- Brian Kernighan's method(set count=0 ,while n>0 set n:=n&(n-1) and increment count, return count)
- Time-complexity:O(logn)
+**Algorithm(Brian Kernighan's method):**
+1. set count=0 
+2. while n>0 
+    set n:=n&(n-1)
+    increment count
+3.return count
 
-## Sub-Heading
+Time-complexity:O(logn)
 
-{% highlight ruby %}
+## Implementation
+```ruby
 def count_set_bits(num)
   count=0
   while num>0
@@ -24,6 +28,4 @@ def count_set_bits(num)
   end
   return count
 end
-{% endhighlight %}
-
-## Heading 2
+```

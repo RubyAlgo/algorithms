@@ -9,11 +9,10 @@ tags: test
 
 This is a test Post
 
-# Binary Search Algorithm
-# Time Complexity = O(logn) 
-# Precondition: List should be sorted
+**Time Complexity = O(logn)**<br>
+**Precondition: List should be sorted**
 
-## Sub-Heading
+## Implementation
 {% highlight ruby %}
 
 def binary_search (a,n,key)  # a is the array, n is length of array and key is the value to be found

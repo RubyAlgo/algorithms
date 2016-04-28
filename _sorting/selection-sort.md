@@ -13,7 +13,7 @@ This is a test Post
 > Time-complexity : O(n^2), In-place
  It never makes more than O(n) swaps ,hence can be useful when memory writes are costly.
 
-## Sub-Heading
+## Implementation
 {% highlight ruby %}
 
 def selection_sort(a)

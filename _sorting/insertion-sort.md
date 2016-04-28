@@ -14,7 +14,7 @@ This is a test Post
 Very useful for sorting nearly sorted array, very fast and effective for small size arrays
  Worst case: Array is reverse sorted, Best case: Array is already sorted (O(n) time)
 
-## Sub-Heading
+## Implementation
 {% highlight ruby %}
 
 def insertion_sort(a)
