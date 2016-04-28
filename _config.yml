@@ -65,7 +65,7 @@ author:
   avatar           : "logo.png"
   bio              : "Implementation of algorithms and data-structures in Ruby."
   location         : "Tokyo"
-  email            : rubyalgo@gmail.com
+  email            : "rubyalgo@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -73,7 +73,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : RubyAlgo
+  github           : "RubyAlgo"
   google_plus      :
   keybase          :
   instagram        :
