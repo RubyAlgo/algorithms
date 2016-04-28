@@ -2,12 +2,8 @@
 title:  "Merge Sort Algorithm"
 permalink: /sorting/merge-sort/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 
 ---
- 
-
-This is a test Post
 
 ## Merge Sort (divides input array in two halves, calls itself for the two halves and then merges the two sorted halves recursively)
 

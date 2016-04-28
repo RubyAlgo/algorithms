@@ -2,12 +2,9 @@
 title:  "Binary Search Algorithm"
 permalink: /searching/binary-search/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 
 ---
  
-
-This is a test Post
 
 **Time Complexity = O(logn)**<br>
 **Precondition: List should be sorted**
@@ -15,9 +12,9 @@ This is a test Post
 ## Implementation
 {% highlight ruby %}
 
-def binary_search (a,n,key)  # a is the array, n is length of array and key is the value to be found
+def binary_search (a,key)  # a is the array and key is the value to be found
     lo = 0
-    hi= n-1
+    hi= a.length-1
     
     while (lo<=hi)
         mid = lo+((hi-lo)/2)
@@ -35,5 +32,3 @@ def binary_search (a,n,key)  # a is the array, n is length of array and key is t
     return "Value not found in array"
 end
 {% endhighlight %}
-
-## Heading 2

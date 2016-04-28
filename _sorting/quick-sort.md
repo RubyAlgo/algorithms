@@ -2,12 +2,8 @@
 title:  "Quick Sort Algorithm"
 permalink: /sorting/quick-sort/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 
 ---
- 
-
-This is a test Post
 
 **Time-complexity::**
  Worst case (array already sorted/reverse sorted or too many duplicates): O(n^2), 

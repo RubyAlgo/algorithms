@@ -2,7 +2,6 @@
 title:  "Sort array in wave-form"
 permalink: /sorting/sort-array-in-waveform/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 
 ---
 

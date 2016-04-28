@@ -2,12 +2,8 @@
 title:  "Shell Sort Algorithm"
 permalink: /sorting/shell-sort/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 
 ---
- 
-
-This is a test Post
 
 # Shell Sort implementation(Diminishing Increment Sort)
 > Time-complexity: O(n^2), In-place

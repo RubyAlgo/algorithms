@@ -2,12 +2,7 @@
 title:  "Bubble Sort Algorithm"
 permalink: /sorting/bubble-sort/
 date:   2016-04-16 14:14:36 +0000
-tags: test
-
 ---
- 
-
-This is a test Post
 
 # Bubble Sort Implementation (works by repeatedly swapping the adjacent elements if they are in wrong order.)
 # Time-complexity : O(n^2), In-place, Can be made stable

@@ -2,7 +2,6 @@
 title:  "3 way Quick Sort Algorithm"
 permalink: /sorting/3way-quick-sort/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 
 ---
  

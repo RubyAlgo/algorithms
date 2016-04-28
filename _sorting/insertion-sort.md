@@ -2,12 +2,8 @@
 title:  "Insertion Sort Algorithm"
 permalink: /sorting/insertion-sort/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 
 ---
- 
-
-This is a test Post
 
 # Inserion Sort implementation (stable)
 > Time Complexity: O(n^2),In-place,stable

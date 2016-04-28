@@ -3,10 +3,7 @@ layout: single
 title:  "Finding Square root (Babylonian Method)"
 permalink: /mathematics/babylonian-sqrt/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 ---
-
-This is a test Post
 
 ## Babylonian method for finding square root( based on Newton–Raphson method) ##
 

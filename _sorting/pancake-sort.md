@@ -2,7 +2,6 @@
 title:  "Pancake Sort Algorithm"
 permalink: /sorting/pancake-sort/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 
 ---
 
