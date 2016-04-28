@@ -3,10 +3,8 @@ layout: single
 title:  "Check if a given number is power of two"
 permalink: /bitAlgos/check-power-of-two/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 ---
 
-This is a test Post
 
 # Given a number,check if it is power of 2 or not without using division or modulo operator.
 

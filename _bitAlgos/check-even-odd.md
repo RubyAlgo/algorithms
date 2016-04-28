@@ -3,10 +3,8 @@ layout: single
 title:  "Check if a given number is even or odd"
 permalink: /bitAlgos/check-even-odd/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 ---
 
-This is a test Post
 
 ## Given a number,check if it is even or odd using bit operations. ##
 **Algorithm:** 

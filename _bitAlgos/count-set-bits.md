@@ -3,10 +3,8 @@ layout: single
 title:  "Count number of set bits in binary notation"
 permalink: /bitAlgos/count-set-bits/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 ---
 
-This is a test Post
 
 ## Given a number "n",count the number of set bits in it. ##
 **Algorithm(Brian Kernighan's method):**

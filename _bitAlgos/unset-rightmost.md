@@ -3,10 +3,7 @@ layout: single
 title:  "Unset the least significant bit"
 permalink: /bitAlgos/unset-lsb/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 ---
-
-This is a test Post
 
 ## Given a binary number unset the rightmost set bit. ##
 **Algorithm:**

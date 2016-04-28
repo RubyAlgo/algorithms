@@ -63,9 +63,9 @@ google_ad_slot           :
 author:
   name             : "Ruby Algorithms"
   avatar           : "logo.png"
-  bio              : "Implementation of algorithms in Ruby."
+  bio              : "Implementation of algorithms and data-structures in Ruby."
   location         : "Tokyo"
-  email            :
+  email            : rubyalgo@gmail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -73,7 +73,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : RubyAlgo
   google_plus      :
   keybase          :
   instagram        :

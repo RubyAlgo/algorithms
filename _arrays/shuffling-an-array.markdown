@@ -3,10 +3,8 @@ layout: single
 title:  "Shuffling an array"
 permalink: /arrays/shuffling-an-array/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 ---
 
-This is a test Post
 
 ## Knuth Shuffling Algorithm ##
 **Choose random number between i and n-i and swap**

@@ -3,10 +3,8 @@ layout: single
 title:  "Reverse an array"
 permalink: /arrays/reverse-an-array/
 date:   2016-04-16 14:14:36 +0000
-tags: test
 ---
 
-This is a test Post
 
 # Given a zero index array reverse the order of elements
 
