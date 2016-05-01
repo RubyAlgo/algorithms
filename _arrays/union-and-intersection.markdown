@@ -6,7 +6,7 @@ date:   2016-04-16 14:14:36 +0000
 ---
 
 
-##Given two sorted arrays ,Print the elements in the union and intersection of these arrays
+## Given two sorted arrays ,Print the elements in the union and intersection of these arrays
 **Time-complexity:O(n+m)(n=length of array1 and m=length of array2)**<br/>
 **Auxiliary-space: O(1)**
 
