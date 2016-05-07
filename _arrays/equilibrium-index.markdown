@@ -13,7 +13,7 @@ A[]=[-7,1,5,2,-4,3,0]<br/>
 3 is an equilibrium index, because:<br/>
 A[0] + A[1] + A[2] = A[4] + A[5] + A[6]<br/>
 **Time-complexity: O(n)**<br/>
-Auxiliary-space: O(1)<br/>
+**Auxiliary-space: O(1)**<br/>
 
 **Implementation**
 
