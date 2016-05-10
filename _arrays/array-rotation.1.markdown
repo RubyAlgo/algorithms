@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Array rotation-II (Juggling Algorithm)"
-permalink: /arrays/array-rotation-2/
+permalink: /arrays/rotation-juggling-algorithm/
 date:   2016-04-16 14:14:36 +0000
 ---
 
